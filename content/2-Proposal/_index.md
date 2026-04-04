@@ -5,12 +5,6 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-In this section, you need to summarize the contents of the workshop that you **plan** to conduct.
-
 
 # AI-Assisted Electronics Production Management System
 ## (A unified AWS-based platform for production planning and monitoring)
@@ -56,7 +50,7 @@ POM/SOOP files and related documents are stored in a dedicated S3 bucket; the fr
 
 Sensitive information such as database credentials, API keys, and email configuration is securely managed with AWS Secrets Manager. All logs, metrics, and alarms are monitored centrally via Amazon CloudWatch.
 
-<img height="50" src="/images/2-Proposal/architecture.jpg" width="50" alt="Proposal Image"/>
+<img height="200" src="/images/2-Proposal/architecture.jpg" width="200" alt="Proposal Image"/>
 
 #### AWS Services Used
 - Amazon ECS: runs backend production management services
