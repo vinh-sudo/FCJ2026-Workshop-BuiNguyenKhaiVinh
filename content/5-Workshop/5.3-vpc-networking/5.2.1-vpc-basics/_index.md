@@ -1,11 +1,11 @@
 ---
-title: "6.2.1 VPC Basics – CIDR & Subnets"
+title: "5.3.1 VPC Basics – CIDR & Subnets"
 date: 2026-01-01
-weight: 1
+weight: 2
 chapter: false
 ---
 
-5.2.1 VPC Basics – CIDR & Subnets
+5.3.1 VPC Basics – CIDR & Subnets
 
 In this step, you create the **VPC and subnets** that host the AI Production Management System.
 

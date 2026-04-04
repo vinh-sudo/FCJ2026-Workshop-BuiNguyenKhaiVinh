@@ -1,5 +1,5 @@
 ---
-title: "Tổng quan Workshop"
+title: "5.1 Tổng quan Workshop"
 weight: 1
 ---
 
@@ -46,4 +46,3 @@ Trong toàn bộ mục 5-Workshop, bạn sẽ:
 - Tích hợp SQS, SNS, SES cho xử lý nền và thông báo.
 - Bảo mật secrets bằng Secrets Manager và cấu hình IAM cơ bản.
 - Thiết lập CloudWatch logs, metrics, alarms và một pipeline CI/CD đơn giản.
-

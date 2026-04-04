@@ -1,5 +1,5 @@
 ---
-title: "Lớp AI phân tích sản xuất"
+title: "5.8 Lớp AI phân tích sản xuất"
 weight: 8
 ---
 

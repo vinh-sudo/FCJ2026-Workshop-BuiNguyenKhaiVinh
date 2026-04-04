@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.3 </b> "
 ---
 
-# VPC & Networking cho hệ thống Quản lý Sản xuất AI (IMS)
+VPC & Networking cho hệ thống Quản lý Sản xuất AI (IMS)
 
 Trong module này, bạn sẽ thiết kế **nền tảng mạng** cho hệ thống Quản lý Sản xuất AI (IMS).
 

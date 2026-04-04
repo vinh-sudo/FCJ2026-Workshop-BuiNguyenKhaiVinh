@@ -1,5 +1,5 @@
 ---
-title: "Workshop"
+title: "5. Workshop"
 date: 2025-01-01
 weight: 5
 chapter: false

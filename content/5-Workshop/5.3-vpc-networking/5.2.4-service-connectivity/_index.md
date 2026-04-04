@@ -1,11 +1,11 @@
 ---
-title: "6.2.4 Service Connectivity – ECS, RDS, S3 & Messaging"
+title: "5.3.4 Service Connectivity – ECS, RDS, S3 & Messaging"
 date: 2026-01-01
-weight: 4
+weight: 2
 chapter: false
 ---
 
-# 6.2.4 Service Connectivity – ECS, RDS, S3 & Messaging
+# 5.3.4 Service Connectivity – ECS, RDS, S3 & Messaging
 
 Finally, you connect AWS services to the VPC so that the application can work end‑to‑end.
 

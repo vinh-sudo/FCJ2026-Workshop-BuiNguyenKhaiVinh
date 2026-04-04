@@ -1,5 +1,5 @@
 ---
-title: "Messaging & Notifications (SQS, SNS, SES)"
+title: "5.6 Messaging & Notifications (SQS, SNS, SES)"
 weight: 5
 ---
 

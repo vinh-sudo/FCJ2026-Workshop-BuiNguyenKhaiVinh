@@ -1,11 +1,11 @@
 ---
-title: "6.2.3 Security Boundaries – Security Groups, NACLs & IAM"
+title: "5.3.3 Security Boundaries – Security Groups, NACLs & IAM"
 date: 2026-01-01
-weight: 3
+weight: 2
 chapter: false
 ---
 
-# 6.2.3 Security Boundaries – Security Groups, NACLs & IAM
+# 5.3.3 Security Boundaries – Security Groups, NACLs & IAM
 
 This section defines how traffic is allowed between components, and how networking security relates to IAM and secrets.
 
@@ -26,4 +26,3 @@ This section defines how traffic is allowed between components, and how networki
 - Create security groups for ALB, ECS service, and RDS and wire them together.
 - Verify that the database is only reachable from ECS tasks, not from the Internet.
 - Link forward to the detailed IAM and secrets configuration in module `6.6-auth-security-secrets`.
-

@@ -5,8 +5,7 @@ weight: 2
 chapter: false
 pre: " <b> 5.3 </b> "
 ---
-
-# VPC & Networking for the AI Production Management System
+VPC & Networking for the AI Production Management System
 
 In this module, you design the **network foundation** for the AI Production Management System.
 

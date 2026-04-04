@@ -1,11 +1,11 @@
 ---
-title: "6.2.4 Kết nối dịch vụ – ECS, RDS, S3 & Messaging"
+title: "5.3.4 Kết nối dịch vụ – ECS, RDS, S3 & Messaging"
 date: 2026-01-01
-weight: 4
+weight: 2
 chapter: false
 ---
 
-# 6.2.4 Kết nối dịch vụ – ECS, RDS, S3 & Messaging
+# 5.3.4 Kết nối dịch vụ – ECS, RDS, S3 & Messaging
 
 Ở bước cuối, bạn kết nối các dịch vụ AWS với VPC để ứng dụng có thể hoạt động end‑to‑end.
 

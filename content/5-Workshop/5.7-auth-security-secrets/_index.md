@@ -1,5 +1,5 @@
 ---
-title: "Authentication, Security & Secrets"
+title: "5.7 Authentication, Security & Secrets"
 weight: 6
 ---
 

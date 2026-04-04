@@ -1,5 +1,5 @@
 ---
-title: "Quan sát hệ thống & CI/CD"
+title: "5.9 Quan sát hệ thống & CI/CD"
 weight: 7
 ---
 

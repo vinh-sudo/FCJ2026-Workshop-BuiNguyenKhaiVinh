@@ -1,11 +1,11 @@
 ---
-title: "6.2.2 Routing, Internet Gateway & NAT"
+title: "5.3.2 Routing, Internet Gateway & NAT"
 date: 2026-01-01
 weight: 2
 chapter: false
 ---
 
-# 6.2.2 Routing, Internet Gateway & NAT
+# 5.3.2 Routing, Internet Gateway & NAT
 
 Here you configure how traffic flows in and out of the VPC.
 

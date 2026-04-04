@@ -1,5 +1,5 @@
 ---
-title: "Frontend with S3 & CloudFront"
+title: "5.5 Frontend with S3 & CloudFront"
 weight: 4
 ---
 

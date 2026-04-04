@@ -1,11 +1,11 @@
 ---
-title: "6.2.1 VPC cơ bản – CIDR & Subnet"
+title: "5.3.1 VPC cơ bản – CIDR & Subnet"
 date: 2026-01-01
-weight: 1
+weight: 2
 chapter: false
 ---
 
-# 6.2.1 VPC cơ bản – CIDR & Subnet
+# 5.3.1 VPC cơ bản – CIDR & Subnet
 
 Trong bước này, bạn tạo **VPC và các subnet** để chạy hệ thống Quản lý Sản xuất AI.
 

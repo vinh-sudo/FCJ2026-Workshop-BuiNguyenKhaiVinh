@@ -1,11 +1,11 @@
 ---
-title: "6.2.2 Routing, Internet Gateway & NAT"
+title: "5.3.2 Routing, Internet Gateway & NAT"
 date: 2026-01-01
 weight: 2
 chapter: false
 ---
 
-# 6.2.2 Routing, Internet Gateway & NAT
+# 5.3.2 Routing, Internet Gateway & NAT
 
 Trong bước này, bạn cấu hình cách traffic đi vào và ra khỏi VPC.
 
@@ -26,4 +26,3 @@ Trong môi trường `vpc-ims`, routing được tổ chức như sau:
 - Tạo/kiểm tra **Internet Gateway** `igw-ims` và gắn với VPC.
 - Tạo/kiểm tra `rt-public` và `rt-private`, gắn đúng với các subnet.
 - Đảm bảo `rt-public` route `0.0.0.0/0` tới `igw-ims` và `rt-private` route `0.0.0.0/0` tới NAT gateway `nat-ims`.
-

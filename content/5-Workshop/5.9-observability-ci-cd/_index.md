@@ -1,5 +1,5 @@
 ---
-title: "Observability & CI/CD"
+title: "5.9 Observability & CI/CD"
 weight: 7
 ---
 
