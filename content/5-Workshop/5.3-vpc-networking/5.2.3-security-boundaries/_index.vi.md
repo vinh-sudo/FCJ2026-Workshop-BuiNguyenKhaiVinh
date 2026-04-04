@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.3.3 Biên giới bảo mật – Security Group, NACL & IAM
-
 Phần này mô tả cách cho phép/giới hạn traffic giữa các thành phần, và cách lớp bảo mật mạng liên quan đến IAM và secrets.
 
 #### Bạn cấu hình gì?

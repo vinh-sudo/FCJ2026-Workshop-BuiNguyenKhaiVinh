@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.3.2 Routing, Internet Gateway & NAT
-
 Here you configure how traffic flows in and out of the VPC.
 
 In the `vpc-ims` environment, routing is organized as:

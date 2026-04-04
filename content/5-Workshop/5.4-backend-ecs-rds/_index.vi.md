@@ -1,6 +1,6 @@
 ---
 title: "Backend trên ECS & RDS"
-weight: 3
+weight: 1
 ---
 
 ## Triển khai Backend trên ECS, ECR & RDS

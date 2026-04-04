@@ -1,8 +1,6 @@
 ---
 title: "VPC & Networking cho hệ thống IMS"
-date: 2026-01-01
-weight: 2
-chapter: false
+weight: 1
 pre: " <b> 5.3 </b> "
 ---
 

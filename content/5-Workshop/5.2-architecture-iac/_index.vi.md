@@ -1,6 +1,6 @@
 ---
 title: "Kiến trúc giải pháp & IaC"
-weight: 2
+weight: 1
 ---
 
 ## Kiến trúc giải pháp & Infrastructure-as-Code

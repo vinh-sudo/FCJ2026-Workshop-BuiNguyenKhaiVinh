@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.3.2 Routing, Internet Gateway & NAT
-
 Trong bước này, bạn cấu hình cách traffic đi vào và ra khỏi VPC.
 
 Trong môi trường `vpc-ims`, routing được tổ chức như sau:

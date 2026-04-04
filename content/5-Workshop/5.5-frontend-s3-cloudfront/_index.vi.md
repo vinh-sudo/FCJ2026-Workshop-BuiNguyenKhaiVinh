@@ -1,6 +1,6 @@
 ---
 title: "Frontend với S3 & CloudFront"
-weight: 4
+weight: 1
 ---
 
 ## Triển khai Frontend với S3 & CloudFront

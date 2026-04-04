@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.3.3 Security Boundaries – Security Groups, NACLs & IAM
-
 This section defines how traffic is allowed between components, and how networking security relates to IAM and secrets.
 
 #### What you configure
