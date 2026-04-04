@@ -1,4 +1,4 @@
-baseURL = "https://vinh-sudo.github.io/FCJ2026-Workshop-BuiNguyenKhaiVinh/"
+baseURL = "https://github.com/vinh-sudo/vinh-sudo-FCJ2026-Workshop-BuiNguyenKhaiVinh.git"
 relativeURLs = true
 canonifyURLs = true
 defaultContentLanguage = "en"

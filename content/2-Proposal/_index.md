@@ -50,7 +50,7 @@ POM/SOOP files and related documents are stored in a dedicated S3 bucket; the fr
 
 Sensitive information such as database credentials, API keys, and email configuration is securely managed with AWS Secrets Manager. All logs, metrics, and alarms are monitored centrally via Amazon CloudWatch.
 
-<img height="200" src="/images/2-Proposal/architecture.jpg" width="200" alt="Proposal Image"/>
+<img height="500" src="/images/2-Proposal/architecture.jpg" width="500" alt="Proposal Image"/>
 
 #### AWS Services Used
 - Amazon ECS: runs backend production management services

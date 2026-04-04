@@ -51,7 +51,7 @@ Các file POM/SOOP và tài liệu liên quan được lưu trên một S3 bucke
 
 Thông tin nhạy cảm như thông tin đăng nhập database, API key, cấu hình email được quản lý an toàn bằng AWS Secrets Manager. Toàn bộ log, metric, cảnh báo được giám sát tập trung qua Amazon CloudWatch.
 
-<img height="200" src="/images/2-Proposal/architecture.jpg" width="200" alt="Proposal Image"/>
+<img height="500" src="/images/2-Proposal/architecture.jpg" width="500" alt="Proposal Image"/>
 
 #### Dịch vụ AWS sử dụng
 - Amazon ECS: chạy backend quản lý sản xuất
