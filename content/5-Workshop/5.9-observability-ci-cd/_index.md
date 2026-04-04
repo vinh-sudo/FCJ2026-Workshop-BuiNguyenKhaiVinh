@@ -1,6 +1,6 @@
 ---
 title: "5.9 Observability & CI/CD"
-weight: 7
+weight: 1
 ---
 
 # 5.9 Observability & CI/CD Pipeline

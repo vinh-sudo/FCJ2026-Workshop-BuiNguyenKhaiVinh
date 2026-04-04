@@ -1,9 +1,8 @@
 ---
-title: "VPC & Networking for the IMS System"
+title: "5.3 VPC & Networking for the IMS System"
 date: 2026-01-01
 weight: 1
 chapter: false
-pre: " <b> 5.3 </b> "
 ---
 VPC & Networking for the AI Production Management System
 

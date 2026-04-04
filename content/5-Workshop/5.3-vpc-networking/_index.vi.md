@@ -1,7 +1,7 @@
 ---
-title: "VPC & Networking cho hệ thống IMS"
+title: "5.3 VPC & Networking cho hệ thống IMS"
 weight: 1
-pre: " <b> 5.3 </b> "
+
 ---
 
 VPC & Networking cho hệ thống Quản lý Sản xuất AI (IMS)

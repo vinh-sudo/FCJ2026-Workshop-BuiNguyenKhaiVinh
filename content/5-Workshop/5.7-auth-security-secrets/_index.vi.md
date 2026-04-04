@@ -1,6 +1,6 @@
 ---
 title: "Xác thực, bảo mật & secrets"
-weight: 6
+weight: 1
 ---
 
 ## Xác thực, bảo mật & quản lý secrets

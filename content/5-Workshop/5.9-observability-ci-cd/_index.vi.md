@@ -1,6 +1,6 @@
 ---
 title: "5.9 Quan sát hệ thống & CI/CD"
-weight: 7
+weight: 1
 ---
 
 # 5.9 Quan sát hệ thống & CI/CD Pipeline
