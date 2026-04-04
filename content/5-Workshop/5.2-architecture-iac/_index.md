@@ -1,6 +1,6 @@
 ---
 title: "5.2 Solution Architecture & IaC"
-weight: 1
+weight: 2
 ---
 
 This section explains the overall architecture of the IMS system on AWS and how

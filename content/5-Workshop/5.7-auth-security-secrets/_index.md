@@ -1,6 +1,6 @@
 ---
 title: "5.7 Authentication, Security & Secrets"
-weight: 1
+weight: 7
 ---
 
 ## Authentication, Security & Secrets Management

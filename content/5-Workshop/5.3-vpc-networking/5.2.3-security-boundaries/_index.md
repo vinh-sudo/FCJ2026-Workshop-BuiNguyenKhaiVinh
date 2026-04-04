@@ -1,7 +1,7 @@
 ---
 title: "5.3.3 Security Boundaries – Security Groups, NACLs & IAM"
 date: 2026-01-01
-weight: 2
+weight: 3
 chapter: false
 ---
 

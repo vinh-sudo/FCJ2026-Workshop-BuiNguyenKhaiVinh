@@ -1,7 +1,7 @@
 ---
 title: "5.3.1 VPC Basics – CIDR & Subnets"
 date: 2026-01-01
-weight: 2
+weight: 1
 chapter: false
 ---
 

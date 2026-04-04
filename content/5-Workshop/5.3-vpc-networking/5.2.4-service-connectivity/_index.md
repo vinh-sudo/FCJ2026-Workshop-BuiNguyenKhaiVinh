@@ -1,7 +1,7 @@
 ---
 title: "5.3.4 Service Connectivity – ECS, RDS, S3 & Messaging"
 date: 2026-01-01
-weight: 2
+weight: 4
 chapter: false
 ---
 

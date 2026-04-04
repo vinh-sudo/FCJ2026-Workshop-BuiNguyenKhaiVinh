@@ -1,6 +1,6 @@
 ---
 title: "5.4 Backend on ECS, ECR & RDS"
-weight: 1
+weight: 4
 ---
 
 ## Backend Service on ECS, ECR & RDS

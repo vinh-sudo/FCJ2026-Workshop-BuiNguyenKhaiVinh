@@ -1,6 +1,6 @@
 ---
 title: "5.5 Frontend with S3 & CloudFront"
-weight: 1
+weight: 5
 ---
 
 ## Frontend Hosting with S3 & CloudFront

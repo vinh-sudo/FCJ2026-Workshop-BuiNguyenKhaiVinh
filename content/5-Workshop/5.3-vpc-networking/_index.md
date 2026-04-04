@@ -1,7 +1,7 @@
 ---
 title: "5.3 VPC & Networking for the IMS System"
 date: 2026-01-01
-weight: 1
+weight: 3
 chapter: false
 ---
 VPC & Networking for the AI Production Management System

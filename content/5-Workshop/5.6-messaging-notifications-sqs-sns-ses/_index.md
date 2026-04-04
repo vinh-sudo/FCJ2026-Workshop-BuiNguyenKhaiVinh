@@ -1,6 +1,6 @@
 ---
 title: "5.6 Messaging & Notifications (SQS, SNS, SES)"
-weight: 1
+weight: 6
 ---
 
 ## Messaging & Notifications with SQS, SNS, SES

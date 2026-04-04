@@ -1,9 +1,9 @@
 ---
 title: "Workshop"
 date: 2025-01-01
-weight: 1
+weight: 5
 chapter: false
-
+pre: " <b> 5. </b> "
 ---
 
 # Workshop: Triển khai Hệ thống Quản lý Sản Xuất Điện Tử hỗ trợ AI trên AWS

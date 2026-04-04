@@ -1,6 +1,6 @@
 ---
 title: "5.8 AI Production Analytics"
-weight: 1
+weight: 8
 ---
 
 ## AI Production Analytics Layer
