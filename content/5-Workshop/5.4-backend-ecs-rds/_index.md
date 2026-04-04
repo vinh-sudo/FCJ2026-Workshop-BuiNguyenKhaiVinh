@@ -26,9 +26,9 @@ The project uses:
 
 ## ECS architecture diagrams
 
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs1.png" alt="High-level ECS service architecture for the IMS backend" >}}
+![High-level ECS service architecture for the IMS backend](/images/5-Workshop/5.4-backend-ecs-rds/ecs1.png)
 
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs7network.png" alt="ECS networking with private subnets, ALB and security groups" >}}
+![ECS networking with private subnets, ALB and security groups](/images/5-Workshop/5.4-backend-ecs-rds/ecs7network.png)
 
 These diagrams summarize how the backend service runs on Fargate tasks inside private subnets, connects to RDS, and is fronted by an ALB.
 
@@ -52,13 +52,13 @@ In the workshop, this process is automated using **AWS CodeBuild** with the
 
 ## Deploying to ECS (Fargate)
 
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs2.png" alt="Creating ECS cluster and Fargate service" >}}
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs3.png" alt="Task definition with container image and CPU/memory" >}}
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs4.png" alt="Service configuration, desired count and deployment" >}}
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs5.png" alt="Load balancer integration for ECS service" >}}
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs6.png" alt="Auto scaling configuration for ECS service" >}}
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs8alb.png" alt="ALB listener and target group wired to ECS" >}}
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/ecs9autoscale.png" alt="ECS service scaling policy based on CPU utilization" >}}
+![Creating ECS cluster and Fargate service](/images/5-Workshop/5.4-backend-ecs-rds/ecs2.png)
+![Task definition with container image and CPU/memory](/images/5-Workshop/5.4-backend-ecs-rds/ecs3.png)
+![Service configuration, desired count and deployment](/images/5-Workshop/5.4-backend-ecs-rds/ecs4.png)
+![Load balancer integration for ECS service](/images/5-Workshop/5.4-backend-ecs-rds/ecs5.png)
+![Auto scaling configuration for ECS service](/images/5-Workshop/5.4-backend-ecs-rds/ecs6.png)
+![ALB listener and target group wired to ECS](/images/5-Workshop/5.4-backend-ecs-rds/ecs8alb.png)
+![ECS service scaling policy based on CPU utilization](/images/5-Workshop/5.4-backend-ecs-rds/ecs9autoscale.png)
 
 1. Create an **ECS Cluster** (Fargate type).
 2. Define a **Task Definition**:
@@ -72,7 +72,7 @@ In the workshop, this process is automated using **AWS CodeBuild** with the
 
 ## Connecting to Amazon RDS
 
-{{< img src="/images/5-Workshop/5.4-backend-ecs-rds/RDS.png" alt="Amazon RDS PostgreSQL instance in private subnets" >}}
+![Amazon RDS PostgreSQL instance in private subnets](/images/5-Workshop/5.4-backend-ecs-rds/RDS.png)
 
 1. Provision a **PostgreSQL** database in Amazon RDS inside your VPC private subnets.
 2. Configure Security Groups so that only ECS tasks (and optionally bastion/administration hosts) can connect to RDS.

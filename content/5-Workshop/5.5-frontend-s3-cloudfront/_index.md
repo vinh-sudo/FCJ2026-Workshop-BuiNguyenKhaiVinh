@@ -10,11 +10,11 @@ using Amazon S3 and Amazon CloudFront.
 
 ## Frontend architecture diagrams
 
-{{< img src="/images/5-Workshop/5.5-frontend-s3-cloudfront/s3.png" alt="S3 bucket for hosting IMS frontend static website" >}}
+![S3 bucket for hosting IMS frontend static website](/images/5-Workshop/5.5-frontend-s3-cloudfront/s3.png)
 
-{{< img src="/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront.png" alt="CloudFront distribution in front of S3 origin" >}}
-{{< img src="/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront1.png" alt="CloudFront behavior and cache settings" >}}
-{{< img src="/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront2.png" alt="CloudFront distribution details and domain name" >}}
+![CloudFront distribution in front of S3 origin](/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront.png)
+![CloudFront behavior and cache settings](/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront1.png)
+![CloudFront distribution details and domain name](/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront2.png)
 
 These diagrams illustrate how users access the React app via CloudFront, which serves content from the S3 bucket.
 

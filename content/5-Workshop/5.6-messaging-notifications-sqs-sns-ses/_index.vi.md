@@ -8,6 +8,19 @@ weight: 5
 Phần này tập trung vào xử lý bất đồng bộ và thông báo trong hệ thống IMS
 sử dụng Amazon SQS, Amazon SNS và Amazon SES.
 
+## Sơ đồ messaging & notification
+
+![Cấu hình SQS queue cho job nền IMS](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS%20queue.png)
+![Policy truy cập SQS cho producer/consumer](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS%20policy.png)
+![Chi tiết queue bao gồm cấu hình DLQ](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS%20config.png)
+
+![SNS topic phát tán cảnh báo sản xuất](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SNS.png)
+![Email alert nhận được từ SNS notification](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SNS%20alert.png)
+
+![Cấu hình SES để gửi email OTP và thông báo](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SES.png)
+
+![CloudWatch alarm tích hợp SNS cho cảnh báo hạ tầng](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/cloudwatch-alarm.png)
+
 ## Use case chính
 
 - Đưa các tác vụ nặng vào hàng đợi, ví dụ:
@@ -46,4 +59,3 @@ sử dụng Amazon SQS, Amazon SNS và Amazon SES.
 
 Bằng cách kết hợp SQS, SNS và SES, hệ thống IMS có thể xử lý tải lớn theo kiểu bất đồng bộ
 và gửi cảnh báo kịp thời tới các bên liên quan.
-

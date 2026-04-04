@@ -29,11 +29,10 @@ Trong bước này, bạn tạo **VPC và các subnet** để chạy hệ thốn
 
 #### Sơ đồ: layout VPC IMS
 
-{{< img src="/images/5-Workshop/5.3-vpc-networking/VPC.png" alt="Sơ đồ VPC IMS với public và private subnet trên nhiều AZ" >}}
+![Sơ đồ VPC IMS với public và private subnet trên nhiều AZ](/images/5-Workshop/5.3-vpc-networking/VPC.png)
 
 #### Bài tập workshop
 
 - Tạo hoặc kiểm tra một VPC với CIDR `12.0.0.0/16` và các subnet như trên.
 - Gắn tag subnet rõ ràng (ví dụ `ims-public-1a`, `ims-public-1b`, `ims-private-1a`, `ims-private-1a-extra`, `ims-private-1b`).
 - Sau này gắn các private subnet này cho ECS cluster và RDS subnet group.
-

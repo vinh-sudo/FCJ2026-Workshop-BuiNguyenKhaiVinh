@@ -29,7 +29,7 @@ For this workshop, we use a VPC similar to your real environment:
 
 #### Diagram: IMS VPC layout
 
-{{< img src="/images/5-Workshop/5.3-vpc-networking/VPC.png" alt="IMS VPC with public and private subnets across AZs" >}}
+![IMS VPC with public and private subnets across AZs](/images/5-Workshop/5.3-vpc-networking/VPC.png)
 
 #### Workshop tasks
 

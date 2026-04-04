@@ -3,7 +3,7 @@ title: "Backend trên ECS & RDS"
 weight: 3
 ---
 
-# 6.3 Triển khai Backend trên ECS & RDS
+# 6.3 Triển khai Backend trên ECS, ECR & RDS
 
 Phần này tập trung vào việc đóng gói và triển khai backend Spring Boot
 (từ thư mục `backend/backend`) lên Amazon ECS (Fargate) và kết nối tới
@@ -36,6 +36,14 @@ file `buildspec.yml` ở thư mục gốc repo.
 
 ## Triển khai lên ECS (Fargate)
 
+![Tạo ECS cluster và Fargate service](/images/5-Workshop/5.4-backend-ecs-rds/ecs2.png)
+![Task definition với container image và CPU/memory](/images/5-Workshop/5.4-backend-ecs-rds/ecs3.png)
+![Cấu hình service, desired count và deployment](/images/5-Workshop/5.4-backend-ecs-rds/ecs4.png)
+![Tích hợp load balancer cho ECS service](/images/5-Workshop/5.4-backend-ecs-rds/ecs5.png)
+![Cấu hình auto scaling cho ECS service](/images/5-Workshop/5.4-backend-ecs-rds/ecs6.png)
+![ALB listener và target group gắn với ECS](/images/5-Workshop/5.4-backend-ecs-rds/ecs8alb.png)
+![Chính sách scale ECS service theo CPU](/images/5-Workshop/5.4-backend-ecs-rds/ecs9autoscale.png)
+
 1. Tạo **ECS Cluster** (kiểu Fargate).
 2. Định nghĩa **Task Definition**:
    - Image container lấy từ ECR.
@@ -47,6 +55,8 @@ file `buildspec.yml` ở thư mục gốc repo.
 5. Tạo **ECS Service** dùng task definition và gắn với target group của ALB.
 
 ## Kết nối Amazon RDS
+
+![Instance Amazon RDS PostgreSQL trong private subnet](/images/5-Workshop/5.4-backend-ecs-rds/RDS.png)
 
 1. Khởi tạo database **PostgreSQL** trên Amazon RDS trong private subnet của VPC.
 2. Cấu hình Security Group để chỉ ECS (và máy quản trị cần thiết) có thể truy cập DB.
@@ -65,4 +75,3 @@ Khi chạy thực tế, request đi theo luồng:
 
 Log từ container được gửi về **CloudWatch Logs** (ví dụ log group `/ecs/ims-backend`).
 Bạn có thể dựa vào log để debug lỗi và xác nhận service hoạt động ổn định sau mỗi lần deploy.
-

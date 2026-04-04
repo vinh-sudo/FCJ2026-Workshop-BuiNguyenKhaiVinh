@@ -16,6 +16,14 @@ sử dụng Amazon S3 và Amazon CloudFront.
 - Xem kế hoạch sản xuất, lịch line và một số dashboard cơ bản.
 - Truy cập trang AI insights (qua `aiService`) để xem tóm tắt, phân tích tình trạng sản xuất.
 
+## Sơ đồ kiến trúc frontend
+
+![Bucket S3 host website frontend IMS](/images/5-Workshop/5.5-frontend-s3-cloudfront/s3.png)
+
+![CloudFront đứng trước S3 làm CDN](/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront.png)
+![Cấu hình behavior và cache của CloudFront](/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront1.png)
+![Chi tiết distribution CloudFront và domain name](/images/5-Workshop/5.5-frontend-s3-cloudfront/CloudFront2.png)
+
 ## Build frontend
 
 1. Cài đặt dependency:
@@ -47,4 +55,3 @@ sử dụng Amazon S3 và Amazon CloudFront.
 
 Kết thúc phần này, frontend React sẽ truy cập được qua URL CloudFront hoặc domain tuỳ chỉnh,
 đóng vai trò cổng vào chính của hệ thống IMS.
-

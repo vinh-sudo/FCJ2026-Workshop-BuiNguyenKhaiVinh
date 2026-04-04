@@ -22,9 +22,9 @@ Finally, you connect AWS services to the VPC so that the application can work en
 
 #### ALB and Target Group
 
-{{< img src="/images/5-Workshop/5.3-vpc-networking/ALB.png" alt="Application Load Balancer in public subnets routing traffic to ECS" >}}
+![Application Load Balancer in public subnets routing traffic to ECS](/images/5-Workshop/5.3-vpc-networking/ALB.png)
 
-{{< img src="/images/5-Workshop/5.3-vpc-networking/TG.png" alt="Target Group for ECS service behind ALB" >}}
+![Target Group for ECS service behind ALB](/images/5-Workshop/5.3-vpc-networking/TG.png)
 
 These diagrams show how the ALB listens on public subnets and forwards traffic only to healthy ECS tasks in private subnets via the target group.
 

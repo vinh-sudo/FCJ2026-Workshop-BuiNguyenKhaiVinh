@@ -10,16 +10,16 @@ using Amazon SQS, Amazon SNS, and Amazon SES.
 
 ## Messaging & notification diagrams
 
-{{< img src="/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS queue.png" alt="SQS queue configuration for IMS background jobs" >}}
-{{< img src="/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS policy.png" alt="SQS access policy for producers and consumers" >}}
-{{< img src="/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS config.png" alt="Queue details including DLQ configuration" >}}
+![SQS queue configuration for IMS background jobs](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS%20queue.png)
+![SQS access policy for producers and consumers](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS%20policy.png)
+![Queue details including DLQ configuration](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SQS%20config.png)
 
-{{< img src="/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SNS.png" alt="SNS topic used to broadcast production alerts" >}}
-{{< img src="/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SNS alert.png" alt="Email alert received from SNS notification" >}}
+![SNS topic used to broadcast production alerts](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SNS.png)
+![Email alert received from SNS notification](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SNS%20alert.png)
 
-{{< img src="/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SES.png" alt="SES configuration for sending OTP and notification emails" >}}
+![SES configuration for sending OTP and notification emails](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/SES.png)
 
-{{< img src="/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/cloudwatch-alarm.png" alt="CloudWatch alarm integrated with SNS for infrastructure alerts" >}}
+![CloudWatch alarm integrated with SNS for infrastructure alerts](/images/5-Workshop/5.6-messaging-notifications-sqs-sns-ses/cloudwatch-alarm.png)
 
 These screenshots show how queues, topics, email sending, and alarms are configured to support asynchronous processing and alerting.
 

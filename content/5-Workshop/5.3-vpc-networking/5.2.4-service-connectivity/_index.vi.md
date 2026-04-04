@@ -22,9 +22,9 @@ chapter: false
 
 #### ALB và Target Group
 
-{{< img src="/images/5-Workshop/5.3-vpc-networking/ALB.png" alt="ALB ở public subnet routing traffic tới ECS" >}}
+![ALB ở public subnet routing tới ECS](/images/5-Workshop/5.3-vpc-networking/ALB.png)
 
-{{< img src="/images/5-Workshop/5.3-vpc-networking/TG.png" alt="Target Group cho ECS service phía sau ALB" >}}
+![Target Group cho ECS service phía sau ALB](/images/5-Workshop/5.3-vpc-networking/TG.png)
 
 Hai hình này minh hoạ ALB lắng nghe ở public subnet và chỉ forward traffic tới các ECS task healthy trong private subnet thông qua target group.
 
@@ -38,4 +38,3 @@ Hai hình này minh hoạ ALB lắng nghe ở public subnet và chỉ forward tr
 - Gắn private subnet vào ECS cluster và RDS subnet group.
 - Kiểm tra ECS task có thể truy cập ECR, S3, SQS/SNS/SES và Secrets Manager từ private subnet.
 - Đối chiếu lại cách lớp mạng này hỗ trợ các module sau: backend ECS/RDS, messaging & notifications, security và observability.
-

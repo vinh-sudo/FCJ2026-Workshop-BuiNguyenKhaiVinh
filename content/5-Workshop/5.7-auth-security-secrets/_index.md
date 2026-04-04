@@ -10,31 +10,31 @@ secret management are handled in the IMS system.
 
 ## Security architecture diagrams
 
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/IAM.png" alt="IAM roles and permissions for ECS, CI/CD and SES" >}}
+![IAM roles and permissions for ECS, CI/CD and SES](/images/5-Workshop/5.7-auth-security-secrets/IAM.png)
 
 *Hình IAM cho phần IAM Roles & Permissions trong module 6.6.*
 
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/sg-ALB-inbound.png" alt="Security group inbound rules for ALB" >}}
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/sg-ALB-outbound.png" alt="Security group outbound rules for ALB" >}}
+![Security group inbound rules for ALB](/images/5-Workshop/5.7-auth-security-secrets/sg-ALB-inbound.png)
+![Security group outbound rules for ALB](/images/5-Workshop/5.7-auth-security-secrets/sg-ALB-outbound.png)
 
 *Hai hình SG‑ALB dùng cho phần Network Security (ALB security group) của module 6.6.*
 
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/sg-ECS-inbound.png" alt="Security group inbound rules for ECS tasks" >}}
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/sg-ECS-outbound.png" alt="Security group outbound rules for ECS tasks" >}}
+![Security group inbound rules for ECS tasks](/images/5-Workshop/5.7-auth-security-secrets/sg-ECS-inbound.png)
+![Security group outbound rules for ECS tasks](/images/5-Workshop/5.7-auth-security-secrets/sg-ECS-outbound.png)
 
 *Hai hình SG‑ECS dùng cho phần Network Security (ECS security group) của module 6.6.*
 
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/sg-RDS-inbound.png" alt="Security group inbound rules for RDS" >}}
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/sg-RDS-outbound.png" alt="Security group outbound rules for RDS" >}}
+![Security group inbound rules for RDS](/images/5-Workshop/5.7-auth-security-secrets/sg-RDS-inbound.png)
+![Security group outbound rules for RDS](/images/5-Workshop/5.7-auth-security-secrets/sg-RDS-outbound.png)
 
 *Hai hình SG‑RDS dùng cho phần Network Security (RDS security group) của module 6.6.*
 
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/secrete manager.png" alt="Secrets Manager storing database and SMTP credentials" >}}
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/KMS.png" alt="KMS key protecting encrypted secrets" >}}
+![Secrets Manager storing database and SMTP credentials](/images/5-Workshop/5.7-auth-security-secrets/secrete%20manager.png)
+![KMS key protecting encrypted secrets](/images/5-Workshop/5.7-auth-security-secrets/KMS.png)
 
 *Hai hình Secrets Manager và KMS cho phần Secrets Management & KMS trong module 6.6.*
 
-{{< img src="/images/5-Workshop/5.7-auth-security-secrets/cloudwatch-alarm.png" alt="CloudWatch alarm as part of security and monitoring" >}}
+![CloudWatch alarm as part of security and monitoring](/images/5-Workshop/5.7-auth-security-secrets/cloudwatch-alarm.png)
 
 *Hình CloudWatch Alarm dùng chung cho phần Network Security/Monitoring của module 6.6 và liên kết với module 6.7 Observability & CI/CD.*
 

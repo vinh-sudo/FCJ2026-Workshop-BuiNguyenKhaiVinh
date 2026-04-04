@@ -62,6 +62,35 @@ Không hard-code secrets trong:
 - Docker image.
 - Frontend bundle.
 
+## Sơ đồ kiến trúc bảo mật
+
+![IAM roles and permissions for ECS, CI/CD and SES](/images/5-Workshop/5.7-auth-security-secrets/IAM.png)
+
+*Hình IAM cho phần IAM Roles & Permissions trong module 6.6.*
+
+![Security group inbound rules for ALB](/images/5-Workshop/5.7-auth-security-secrets/sg-ALB-inbound.png)
+![Security group outbound rules for ALB](/images/5-Workshop/5.7-auth-security-secrets/sg-ALB-outbound.png)
+
+*Hai hình SG‑ALB dùng cho phần Network Security (ALB security group) của module 6.6.*
+
+![Security group inbound rules for ECS tasks](/images/5-Workshop/5.7-auth-security-secrets/sg-ECS-inbound.png)
+![Security group outbound rules for ECS tasks](/images/5-Workshop/5.7-auth-security-secrets/sg-ECS-outbound.png)
+
+*Hai hình SG‑ECS dùng cho phần Network Security (ECS security group) của module 6.6.*
+
+![Security group inbound rules for RDS](/images/5-Workshop/5.7-auth-security-secrets/sg-RDS-inbound.png)
+![Security group outbound rules for RDS](/images/5-Workshop/5.7-auth-security-secrets/sg-RDS-outbound.png)
+
+*Hai hình SG‑RDS dùng cho phần Network Security (RDS security group) của module 6.6.*
+
+![Secrets Manager storing database and SMTP credentials](/images/5-Workshop/5.7-auth-security-secrets/secrete%20manager.png)
+![KMS key protecting encrypted secrets](/images/5-Workshop/5.7-auth-security-secrets/KMS.png)
+
+*Hai hình Secrets Manager và KMS cho phần Secrets Management & KMS trong module 6.6.*
+
+![CloudWatch alarm as part of security and monitoring](/images/5-Workshop/5.7-auth-security-secrets/cloudwatch-alarm.png)
+
+*Hình CloudWatch Alarm dùng chung cho phần Network Security/Monitoring của module 6.6 và liên kết với module 6.7 Observability & CI/CD.*
+
 Với mô hình xác thực, mạng, IAM và secrets như vậy, hệ thống IMS có thể đáp ứng
 các yêu cầu bảo mật phổ biến trong môi trường doanh nghiệp.
-
