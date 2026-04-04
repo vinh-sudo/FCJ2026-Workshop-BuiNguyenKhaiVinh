@@ -3,8 +3,6 @@ title: "5.1 IMS System & Workshop Overview"
 weight: 1
 ---
 
-## 5.1 System & Workshop Overview
-
 In this section, we recap the business problem, user roles, and demo scenario for the
 AI-Assisted Electronics Production Management System (IMS), and explain how the
 hands-on workshop is organized around this system.

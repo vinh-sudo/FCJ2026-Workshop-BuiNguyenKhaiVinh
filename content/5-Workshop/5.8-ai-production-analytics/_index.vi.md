@@ -3,7 +3,7 @@ title: "5.8 Lớp AI phân tích sản xuất"
 weight: 8
 ---
 
-# 5.8 Lớp AI phân tích sản xuất
+## Lớp AI phân tích sản xuất
 
 Phần này trình bày cách tích hợp AI vào hệ thống IMS để cung cấp
 các insight và phân tích bằng ngôn ngữ tự nhiên trên dữ liệu sản xuất.

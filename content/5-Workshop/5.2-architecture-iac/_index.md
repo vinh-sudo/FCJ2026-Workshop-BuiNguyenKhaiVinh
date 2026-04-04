@@ -3,7 +3,7 @@ title: "5.2 Solution Architecture & IaC"
 weight: 2
 ---
 
-## 5.2 Solution Architecture & Infrastructure-as-Code
+## Solution Architecture & Infrastructure-as-Code
 
 This section explains the overall architecture of the IMS system on AWS and how
 you can provision it using Infrastructure-as-Code (IaC).

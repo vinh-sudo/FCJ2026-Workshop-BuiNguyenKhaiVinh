@@ -3,7 +3,7 @@ title: "5.7 Authentication, Security & Secrets"
 weight: 6
 ---
 
-# 5.7 Authentication, Security & Secrets Management
+## Authentication, Security & Secrets Management
 
 This section describes how authentication, authorization, network security, and
 secret management are handled in the IMS system.

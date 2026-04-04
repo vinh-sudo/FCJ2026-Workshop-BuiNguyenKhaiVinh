@@ -3,7 +3,7 @@ title: "Frontend với S3 & CloudFront"
 weight: 4
 ---
 
-# 5.5 Triển khai Frontend với S3 & CloudFront
+## Triển khai Frontend với S3 & CloudFront
 
 Phần này hướng dẫn bạn build và deploy frontend React trong thư mục `frontend/`
 sử dụng Amazon S3 và Amazon CloudFront.

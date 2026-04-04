@@ -3,7 +3,7 @@ title: "5.6 Messaging & Notifications (SQS, SNS, SES)"
 weight: 5
 ---
 
-# 5.6 Messaging & Notifications với SQS, SNS, SES
+## Messaging & Notifications với SQS, SNS, SES
 
 Phần này tập trung vào xử lý bất đồng bộ và thông báo trong hệ thống IMS
 sử dụng Amazon SQS, Amazon SNS và Amazon SES.

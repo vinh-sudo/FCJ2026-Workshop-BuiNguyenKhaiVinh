@@ -3,7 +3,7 @@ title: "Backend trên ECS & RDS"
 weight: 3
 ---
 
-# 5.4 Triển khai Backend trên ECS, ECR & RDS
+## Triển khai Backend trên ECS, ECR & RDS
 
 Phần này tập trung vào việc đóng gói và triển khai backend Spring Boot
 (từ thư mục `backend/backend`) lên Amazon ECS (Fargate) và kết nối tới

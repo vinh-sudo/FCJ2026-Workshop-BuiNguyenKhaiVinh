@@ -3,12 +3,12 @@ title: "Kiến trúc giải pháp & IaC"
 weight: 2
 ---
 
-# 5.2 Kiến trúc giải pháp & Infrastructure-as-Code
+## Kiến trúc giải pháp & Infrastructure-as-Code
 
 Phần này giải thích kiến trúc tổng thể của hệ thống IMS trên AWS và cách
 bạn có thể triển khai hạ tầng bằng Infrastructure-as-Code (IaC).
 
-## Kiến trúc logic
+### Kiến trúc logic
 
 Ở mức tổng quan, hệ thống có luồng như sau:
 
@@ -25,14 +25,14 @@ bạn có thể triển khai hạ tầng bằng Infrastructure-as-Code (IaC).
 8. **Bảo mật & Cấu hình** – **AWS Secrets Manager** cho mật khẩu và API key, IAM role cho ECS và CI/CD.
 9. **Giám sát** – **Amazon CloudWatch** cho logs, metrics, alarms, dashboards.
 
-## Mapping repo → kiến trúc
+### Mapping repo → kiến trúc
 
 - `backend/backend` → Docker image → ECS Task Definition → ECS Service → ALB Target Group.
 - `frontend/` → Vite build output → S3 website bucket → CloudFront distribution.
 - Schema DB (các file migration tại `src/main/resources/db/migration/`) → Amazon RDS.
 - Template email `otp-email.html` → luồng gửi OTP / thông báo sử dụng SES.
 
-## Tuỳ chọn IaC
+### Tuỳ chọn IaC
 
 Bạn có thể hiện thực kiến trúc bằng nhiều cách:
 
@@ -43,7 +43,7 @@ Bạn có thể hiện thực kiến trúc bằng nhiều cách:
 Trong workshop, bạn có thể bắt đầu với console + CLI để nắm rõ từng dịch vụ, sau đó
 xem IaC như bước mở rộng nâng cao.
 
-## So sánh với workshop serverless
+### So sánh với workshop serverless
 
 So với ứng dụng serverless Travel Guide trong `5-Workshop` (Lambda + API Gateway + DynamoDB):
 

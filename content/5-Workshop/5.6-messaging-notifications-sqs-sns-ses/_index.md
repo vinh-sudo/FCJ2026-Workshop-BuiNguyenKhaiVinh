@@ -3,7 +3,7 @@ title: "5.6 Messaging & Notifications (SQS, SNS, SES)"
 weight: 5
 ---
 
-# 5.6 Messaging & Notifications with SQS, SNS, SES
+## Messaging & Notifications with SQS, SNS, SES
 
 This section focuses on asynchronous processing and notifications in the IMS system,
 using Amazon SQS, Amazon SNS, and Amazon SES.

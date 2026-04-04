@@ -3,7 +3,7 @@ title: "5.4 Backend on ECS, ECR & RDS"
 weight: 3
 ---
 
-# 5.4 Backend Service on ECS, ECR & RDS
+## Backend Service on ECS, ECR & RDS
 
 In this section, you will focus on packaging and deploying the Spring Boot backend
 from the `backend/backend` folder to **Amazon ECR** and **Amazon ECS (Fargate)**,

@@ -3,8 +3,6 @@ title: "5.1 Tổng quan Workshop"
 weight: 1
 ---
 
- 5.1 Tổng quan Workshop
-
 Phần này tóm tắt lại bài toán, vai trò người dùng và kịch bản demo cho
 Hệ thống Quản lý Sản xuất Điện tử hỗ trợ AI (IMS).
 

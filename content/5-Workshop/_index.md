@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-# AI Production Management System on AWS – Workshop
-
-#### Overview
+## AI Production Management System on AWS – Workshop
 
 This workshop walks through the end‑to‑end design and deployment of an **AI‑Assisted Electronics Production Management System** on AWS.
 

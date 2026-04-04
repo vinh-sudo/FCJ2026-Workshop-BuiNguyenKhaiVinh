@@ -3,7 +3,7 @@ title: "5.8 AI Production Analytics"
 weight: 8
 ---
 
-# 5.8 AI Production Analytics Layer
+## AI Production Analytics Layer
 
 This section highlights how AI is integrated into the IMS system to provide
 natural-language insights and analytics on top of production data.
